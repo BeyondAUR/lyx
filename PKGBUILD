@@ -4,7 +4,7 @@
 # Contributor: Jason Chu <jason@archlinux.org>
 pkgname=lyx
 pkgver=2.4.0
-pkgrel=1
+pkgrel=2
 pkgdesc="An advanced WYSIWYM document processor & LaTeX front-end"
 arch=(x86_64)
 url="https://www.${pkgname}.org"
@@ -39,7 +39,7 @@ package() {
   cd ${pkgname}-${pkgver}
   make DESTDIR="${pkgdir}" install
   # install appdata
-  install -Dm644 lib/appdata.xml "$pkgdir"/usr/share/metainfo/lyx.appdata.xml
+  install -Dm644 lib/org.lyx.LyX.metainfo.xml "$pkgdir"/usr/share/metainfo/lyx.appdata.xml
 
   # install default config file
   install -Dm644 "${srcdir}/lyxrc.dist" "${pkgdir}/etc/lyx/lyxrc.dist"
