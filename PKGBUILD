@@ -4,12 +4,12 @@
 # Contributor: Jason Chu <jason@archlinux.org>
 pkgname=lyx
 pkgver=2.4.1
-pkgrel=1
+pkgrel=2
 pkgdesc="An advanced WYSIWYM document processor & LaTeX front-end"
 arch=(x86_64)
 url="https://www.${pkgname}.org"
-depends=(qt6-svg texlive-basic python imagemagick enchant hunspell
-  libmythes file hicolor-icon-theme desktop-file-utils)
+depends=(qt6-svg python imagemagick enchant hunspell libmythes
+  file hicolor-icon-theme desktop-file-utils)
 makedepends=(boost bc)
 optdepends=('rcs: built-in version control system'
   'texlive-latexextra: float wrap support'
