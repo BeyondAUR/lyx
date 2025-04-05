@@ -28,6 +28,7 @@ build() {
   ./configure \
     --prefix=/usr \
     --enable-qt6 \
+    --enable-cxx-mode=20 \
     --without-included-boost \
     --without-included-mythes
   make
