@@ -3,7 +3,7 @@
 # Contributor: Ronald van Haren <ronald.archlinux.org>
 # Contributor: Jason Chu <jason@archlinux.org>
 pkgname=lyx
-pkgver=2.4.3
+pkgver=2.4.4
 pkgrel=1
 pkgdesc="An advanced WYSIWYM document processor & LaTeX front-end"
 arch=(x86_64)
@@ -19,7 +19,7 @@ backup=('etc/lyx/lyxrc.dist')
 options=('emptydirs' '!lto')
 source=(https://ftp.lip6.fr/pub/${pkgname}/stable/${pkgver::4}x/${pkgname}-${pkgver}.tar.gz
   lyxrc.dist)
-sha512sums=('e6e6f97a32ab14447321d375771947c1968a5ab4e2eceadbb302ae24316020d032b92ec30a07d638b15b8b9325587559a70bc79b29326cef35f82fa0e622e5fd'
+sha512sums=('46497e8f6c881ba5423d52fe424c8275d254ebd063495fed753d2e19ee8d4dc0bc5e9df571ead7939d7d509c27ac0ce8d9a918e83ab6f9793d1a0235d9456651'
             'eef777cf6033a7b1e04700f33068b07309f8d5c6931c16927305dafb3a00fd46d4b536149349ab56b7455e7dea195c8889da2b6fbf9caa9e76bc0557f9358bc3')
 
 build() {
