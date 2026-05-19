@@ -17,9 +17,9 @@ optdepends=('rcs: built-in version control system'
 license=(GPL-2.0-or-later)
 backup=('etc/lyx/lyxrc.dist')
 options=('emptydirs' '!lto')
-source=(https://ftp.lip6.fr/pub/${pkgname}/stable/${pkgver::4}x/${pkgname}-${pkgver}.tar.gz
+source=(https://ftp.lip6.fr/pub/${pkgname}/stable/${pkgver::4}x/${pkgname}-${pkgver}.tar.xz
   lyxrc.dist)
-sha512sums=('5f8ceb88425e371890456f717ca5120d99670398fcf6baf5f30b38383ab6ab9401f722963de99566bc9bc0b84c1e8ed3b3ca113247da514da69322747e65deb9'
+sha512sums=('77c3bd1deeb2c6d174d21ee9620654ac82d0695fbeba22b653819129d2d27f2a999e28cdff444c1e9fd64a0a7fae5ce0effa69818bce2aea1b708f7a27858e54'
             'eef777cf6033a7b1e04700f33068b07309f8d5c6931c16927305dafb3a00fd46d4b536149349ab56b7455e7dea195c8889da2b6fbf9caa9e76bc0557f9358bc3')
 
 build() {
