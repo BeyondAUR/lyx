@@ -3,7 +3,7 @@
 # Contributor: Ronald van Haren <ronald.archlinux.org>
 # Contributor: Jason Chu <jason@archlinux.org>
 pkgname=lyx
-pkgver=2.5.0
+pkgver=2.5.1
 pkgrel=1
 pkgdesc="An advanced WYSIWYM document processor & LaTeX front-end"
 arch=(x86_64)
